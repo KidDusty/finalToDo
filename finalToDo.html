@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 
 <head>
-   <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
+  <title>A To do List</title>
 </head>
 <body>
-        <div id="container">
 
-          <header>
-            <input type="text" placeholder="Enter an activity..." id="item" />
-            <button id="add"></button>
-          </header>
-          <h2>To Do</h2>
-          <ul class="todo" id="todo">
-          </ul>
-          <h2>Completed</h2>
-          <ul class="completed" id="completed"></ul>
-        </div>
+  <div class="container">
+
+    <h1>To Do List:</h1>
+
+    <form class="todo-form">
+      <input type="text" class="todo-input" placeholder="Enter A New Activity">
+      <button type="submit" class="add-button">Add</button>
+    </form>
+
+  <ul class="todo-items"></ul>
+
+  </div>
+  
+  <script type="text/javascript" src="finalToDo.js"></script>
+  <link rel="stylesheet" href="finalToDo.css">
+
 </body>
 </html>
